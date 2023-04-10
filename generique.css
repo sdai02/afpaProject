@@ -1,0 +1,261 @@
+body {
+
+	background-color: #efefef;
+}
+
+.wrapper {
+	max-width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */ 
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.moncompte button {
+	background: #00A0E0;
+	color: white;
+	width: 229px;
+	height: 55px;
+	border-radius: 20px;
+	font-size: 15px;
+	border: none;
+}
+.moncompte button a{
+  color: white;
+}
+
+.langue p {
+	padding-left: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+  padding-top: 20px;
+}
+
+/* BANNER */ 
+.banner nav {
+	background: linear-gradient(180deg, #87BB34 0%, #44A33D 100%);
+	background-size: 100%;
+}
+
+.banner nav ul li {
+	display: block;
+	padding-top: 85px;
+	padding-bottom: 85px;
+	margin: 0 auto;
+	font-size: 25px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* SEARCH */ 
+
+.search button{
+	width: 270px;
+	height: 67px;
+	background: #44A33D;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	border: none;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+.search_bas button {
+	width: 422px;
+	height: 67px;
+	background: #44A33D;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.search .button1 .fa-solid, .button2 .fa-solid{
+  margin-right: 30px;
+  font-size: 35px;
+  color: black;
+}
+
+.search_bas {
+	background-color: white;
+  padding-top: 10px;
+  border-radius: 20px;
+  
+}
+
+.search_bas input {
+	width: 80%;
+	height: 84px;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	color: #A9A9A9;
+	border-radius: 20px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.search a,
+.search_bas a {
+	color: white;
+}
+
+/* REASSURANCE */ 
+
+.reassurance .border_bottom h3 {
+	font-size: 32px;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid rgba(227, 0, 126, 1);
+	line-height: 0.1em;
+	margin: 0px 0 20px;
+  color: #efefef
+}
+
+h3 span {
+	background: #efefef;
+	padding: 0 10px;
+}
+
+/* OFFRES */ 
+.offres {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	background-color: #efefef;
+	justify-content: center;
+}
+
+.offres img {
+	height: 155px;
+	width: 321px;
+	border-radius: 20px;
+  margin: 17px 15px 20px 15px;
+}
+
+.offres .particulier {
+	width: 350px;
+	height: 600px;
+	background-color: white;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin: 16px;
+}
+
+.offres span {
+	color: #E3007E
+}
+
+.offres .formations_alternance {
+	background-color: white;
+	width: 350px;
+	height: 600px;
+	border-radius: 20px;
+	margin-top: 16px;
+}
+
+.offres .trouver_alternance {
+	background-color: white;
+	width: 350px;
+	border-radius: 20px;
+	margin: 16px
+}
+
+.offres button {
+	height: 38px;
+	width: 310px;
+	border-radius: 20px;
+	background-color: #E3007E;
+	color: white;
+	align-items: center;
+	margin: 35px 15px;
+	border: none;
+}
+
+.offres button a {
+	color: white;
+}
+
+/* RESULT */ 
+
+.result .border_bottom h6 {
+	font-size: 32px;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid rgba(227, 0, 126, 1);
+	line-height: 0.1em;
+  color: #efefef;
+  margin-top: 30px;
+}
+
+h6 span {
+	background: #efefee;
+	padding: 0 10px;
+}
+
+.result .sources a {
+	color: #807E7E;
+  margin-left: 90px;
+}
+
+.result .en_savoir_plus a {
+	color: #1052B5;
+}
+
+/* PUB */ 
+.pub span {
+	color: #E3007E;
+	margin-top: 20px;
+	font-family: Regular;
+}
+
+.pub .day {
+	color: #E3007E;
+	font-weight: bold;
+}
+
+.pub h5 {
+	color: #878687;
+	font-family: light;
+}
+
+.pub .reconversion {
+	border: none;
+	padding: 20px 15px;
+	border-radius: 20px;
+	margin: auto;
+	width: 320px;
+	background-color: white;
+	align-items: center;
+}
+
+.pub .technicien_superieur {
+	border: none;
+	border-radius: 20px;
+	padding: 20px 15px;
+	margin: 17px auto;
+	width: 320px;
+	background-color: white;
+}
+
+.pub .formation_technicien {
+	border: none;
+	padding: 20px 15px;
+	border-radius: 20px;
+	margin: auto;
+	width: 320px;
+	background-color: white;
+}
+
+/* FOOTER */ 
+footer span a {
+	color: #E3007E;
+  margin-bottom: 20px;
+}
